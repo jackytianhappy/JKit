@@ -41,3 +41,10 @@ This is a library for you to waiting when loading data. You can wait when the co
 ### view(预览)
 ![image](https://github.com/jackytianhappy/JKit/blob/master/Jkit/JKitGifDemo/JADCycleView.gif)
 
+
+## `JButton`
+### Introduction 
+This is a quick button kit to meet the quick need in work.
+
+
+
