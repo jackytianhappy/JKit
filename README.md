@@ -42,5 +42,15 @@ This is a library for you to waiting when loading data. You can wait when the co
 ![image](https://github.com/jackytianhappy/JKit/blob/master/Jkit/JKitGifDemo/JADCycleView.gif)
 
 
+## `JButton`
+### Introduction 
+This is the button to meet the quick need of the development.
+### 介绍
+这是一个在快速迭代中使用的button
+### view(预览)
+![image](https://github.com/jackytianhappy/JKit/blob/master/Jkit/JKitGifDemo/JButton.png)
+
+
+
 
 
