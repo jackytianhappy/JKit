@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		852907CD1DA8A41C00F0F888 /* JButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 852907CC1DA8A41C00F0F888 /* JButton.png */; };
 		854532191D5D5F4F00C89C87 /* LabelAdjustWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = 854532181D5D5F4F00C89C87 /* LabelAdjustWidth.m */; };
 		854532261D5D674700C89C87 /* UIView+HandyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 854532251D5D674700C89C87 /* UIView+HandyLayout.m */; };
 		854967381D3E12CC006339CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 854967371D3E12CC006339CB /* main.m */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		852907CC1DA8A41C00F0F888 /* JButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JButton.png; sourceTree = "<group>"; };
 		854532171D5D5F4F00C89C87 /* LabelAdjustWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelAdjustWidth.h; sourceTree = "<group>"; };
 		854532181D5D5F4F00C89C87 /* LabelAdjustWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelAdjustWidth.m; sourceTree = "<group>"; };
 		854532241D5D674700C89C87 /* UIView+HandyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HandyLayout.h"; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 		85AE61271D41C0CD00179DCD /* JKitGifDemo */ = {
 			isa = PBXGroup;
 			children = (
+				852907CC1DA8A41C00F0F888 /* JButton.png */,
 				858D9F661D4A54530033C120 /* JADCycleView.gif */,
 				85AE61281D41C11B00179DCD /* JTagListView.gif */,
 				85AE61291D41C11B00179DCD /* JCycleLoading.gif */,
@@ -432,6 +435,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852907CD1DA8A41C00F0F888 /* JButton.png in Resources */,
 				854967461D3E12CC006339CB /* LaunchScreen.storyboard in Resources */,
 				85AE612A1D41C11B00179DCD /* JTagListView.gif in Resources */,
 				859FAF181D3F48D3003EA83F /* Assets.xcassets in Resources */,
