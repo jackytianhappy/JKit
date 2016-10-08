@@ -51,6 +51,13 @@ This is the button to meet the quick need of the development.
 ![image](https://github.com/jackytianhappy/JKit/blob/master/Jkit/JKitGifDemo/JButton.png)
 
 
+## `UIView+HandyLayout`
+### Introduction 
+This is a quick library to help you create a UIPage quickly.It provides convenient API to control the UIControl's position and is provides the quicky define words to help you adjust the size of the screen.
+### 介绍
+这是一个帮助快速搭建界面的库文件，提供很方便的api操作操作控件的位置属性，并且提供很方便的宏适配iOS屏幕尺寸。
+
+
 
 
 
