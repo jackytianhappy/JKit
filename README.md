@@ -48,7 +48,7 @@ This is the button to meet the quick need of the development.
 ### 介绍
 这是一个在快速迭代中使用的button
 ### view(预览)
-![image](https://github.com/jackytianhappy/JKit/blob/master/Jkit/JKitGifDemo/JButton.png)
+//![image](https://github.com/jackytianhappy/JKit/blob/master/Jkit/JKitGifDemo/JButton.png)
 <br><br>
 
 ## `UIView+HandyLayout`
