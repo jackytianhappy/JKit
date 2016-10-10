@@ -29,7 +29,7 @@
 #pragma mark -UILabel line mode
 //设置指定行数显示
 -(void)makeConfigLineMode{
-    self.numberOfLines = self.adjustMoreLineNum>0?self.adjustMoreLineNum:2;
+    self.numberOfLines = self.adjustConfigLineNum>0?self.adjustConfigLineNum:2;
     self.lineBreakMode = NSLineBreakByWordWrapping|NSLineBreakByTruncatingTail;
     [self sizeToFit];
 }

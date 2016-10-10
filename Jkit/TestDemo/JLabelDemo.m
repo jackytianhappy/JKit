@@ -15,7 +15,7 @@
     if (self = [super initWithFrame:frame]) {
         JLabel *lbl = [[JLabel alloc]initWithFrame:CGRectMake(0, 100, 100, 40)];
         lbl.wrapMode = AdjustConfigLine;
-        lbl.adjustMoreLineNum = 4;
+        lbl.adjustConfigLineNum = 4;
         lbl.text = @"qrqwrqrqwrwqrwqrwrwqrqwrweqrwqerwqrwqrweqrwerwrweqrwq";
         [lbl drawTheLabel];  //属性配置好了进行绘画UILable
         [self addSubview:lbl];

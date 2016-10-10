@@ -21,7 +21,7 @@ typedef NS_ENUM(NSInteger,WrapMode){
 //需要进行的显示模式
 @property (nonatomic,assign) WrapMode wrapMode;
 //AdjustMoreLine模式下需要进行的行数显示
-@property (nonatomic,assign) NSInteger adjustMoreLineNum;
+@property (nonatomic,assign) NSInteger adjustConfigLineNum;
 
 //此方法必须调用，确保能够进行正常的赋值操作
 -(void)drawTheLabel;
