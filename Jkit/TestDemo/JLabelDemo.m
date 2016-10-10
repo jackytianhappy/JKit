@@ -14,7 +14,8 @@
 -(id)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         JLabel *lbl = [[JLabel alloc]initWithFrame:CGRectMake(0, 100, 100, 40)];
-        lbl.wrapMode = MoreLine;
+        lbl.wrapMode = AdjustConfigLine;
+        lbl.adjustMoreLineNum = 3;
         lbl.text = @"qrqwrqrqwrwqrwqrwrwqrqwrweqrwqerwqrwqrweqrwerwrweqrwq";
         [lbl drawTheLabel];
         

@@ -13,6 +13,7 @@
 -(void)drawTheLabel{
     switch (self.wrapMode) {
         case AdjustConfigLine:{
+            [self makeConfigLineMode];
             break;
         }
         case MoreLine:{
@@ -25,7 +26,15 @@
         }
     }
 }
+#pragma mark -UILabel line mode
+//设置指定行数显示
+-(void)makeConfigLineMode{
+    self.numberOfLines = self.adjustMoreLineNum>0?self.adjustMoreLineNum:2;
+    self.lineBreakMode = NSLineBreakByWordWrapping|NSLineBreakByTruncatingTail;
+    [self sizeToFit];
+}
 
+//设置多行显示
 -(void)makeMoreLine{
     if (!self.text) {
         #ifdef DEBUG
@@ -36,7 +45,6 @@
         [self makeMoreLineDetailAction];
     }
 }
-
 -(void)makeMoreLineDetailAction{
     self.numberOfLines = 0;
     self.lineBreakMode = NSLineBreakByWordWrapping;
