@@ -48,7 +48,7 @@ This is the button to meet the quick need of the development.
 ### 介绍
 这是一个在快速迭代中使用的button
 ### view(预览)
-//![image](https://github.com/jackytianhappy/JKit/blob/master/Jkit/JKitGifDemo/JButton.png)
+![image](https://github.com/jackytianhappy/JKit/blob/master/Jkit/JKitGifDemo/JButton.png)
 <br><br>
 
 ## `UIView+HandyLayout`
@@ -64,6 +64,16 @@ This is a quick library to help you create a UIPage quickly.It provides convenie
 This is a extention of UIImageView. It provides the function of load local image and it also helps load the remote image automacally. Meanwhile, it provides the API to help you clear the cache in the local.
 ### 介绍
 这是一个UIImageview的扩展，能够自动识别图片源头，加载远程图片和本地图片。同时提供清除通过这个方法进行缓存的本地图片。
+
+<br><br>
+
+## `JLabel`
+### Introduction
+This is a category of UILabel. It helps to make a quick and convenient api for the user to make the content in the UILabel to be in three modes. 1.show the content in oneline 2.show the content in morelines 3.show the content in the number of lines the user defined 
+### 介绍
+这是一个UILabel类的扩展，提供了一个简单快捷的api 去帮助用户快速调整label内部的显示内容。 1.将内容显示在一行 2.将内容在多行显示 3.将内容显示在用户自定义的行数内
+
+
 
 
 
