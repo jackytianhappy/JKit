@@ -18,6 +18,8 @@
 		854967511D3E12CC006339CB /* JkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 854967501D3E12CC006339CB /* JkitTests.m */; };
 		8549675C1D3E12CD006339CB /* JkitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549675B1D3E12CD006339CB /* JkitUITests.m */; };
 		8549676E1D3E1B05006339CB /* JADCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8549676D1D3E1B05006339CB /* JADCycleView.m */; };
+		857F0CF11DAB2F0B00F24DD5 /* JLabelDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 857F0CF01DAB2F0B00F24DD5 /* JLabelDemo.m */; };
+		857F0CF41DAB32A400F24DD5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 857F0CF31DAB32A400F24DD5 /* Info.plist */; };
 		858BD1D41D5B069D004F4EE2 /* JLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 858BD1D31D5B069D004F4EE2 /* JLabel.m */; };
 		858D9F671D4A54530033C120 /* JADCycleView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 858D9F661D4A54530033C120 /* JADCycleView.gif */; };
 		858D9F6A1D4AE9FC0033C120 /* JCycleLoadingDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 858D9F691D4AE9FC0033C120 /* JCycleLoadingDemo.m */; };
@@ -66,7 +68,6 @@
 		8549673D1D3E12CC006339CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		854967401D3E12CC006339CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		854967451D3E12CC006339CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		854967471D3E12CC006339CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8549674C1D3E12CC006339CB /* JkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		854967501D3E12CC006339CB /* JkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JkitTests.m; sourceTree = "<group>"; };
 		854967521D3E12CC006339CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +77,9 @@
 		8549676C1D3E1B05006339CB /* JADCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JADCycleView.h; sourceTree = "<group>"; };
 		8549676D1D3E1B05006339CB /* JADCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JADCycleView.m; sourceTree = "<group>"; };
 		854967711D3E213D006339CB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		857F0CEF1DAB2F0B00F24DD5 /* JLabelDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLabelDemo.h; sourceTree = "<group>"; };
+		857F0CF01DAB2F0B00F24DD5 /* JLabelDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLabelDemo.m; sourceTree = "<group>"; };
+		857F0CF31DAB32A400F24DD5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		858BD1D21D5B069D004F4EE2 /* JLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLabel.h; sourceTree = "<group>"; };
 		858BD1D31D5B069D004F4EE2 /* JLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLabel.m; sourceTree = "<group>"; };
 		858D9F661D4A54530033C120 /* JADCycleView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = JADCycleView.gif; sourceTree = "<group>"; };
@@ -189,7 +193,7 @@
 				8549673D1D3E12CC006339CB /* ViewController.m */,
 				8549673F1D3E12CC006339CB /* Main.storyboard */,
 				854967441D3E12CC006339CB /* LaunchScreen.storyboard */,
-				854967471D3E12CC006339CB /* Info.plist */,
+				857F0CF31DAB32A400F24DD5 /* Info.plist */,
 				859FAF171D3F48D3003EA83F /* Assets.xcassets */,
 				854967361D3E12CC006339CB /* Supporting Files */,
 			);
@@ -271,6 +275,8 @@
 				85AE61311D45C08C00179DCD /* JAsynImageViewDemo.m */,
 				858D9F681D4AE9FC0033C120 /* JCycleLoadingDemo.h */,
 				858D9F691D4AE9FC0033C120 /* JCycleLoadingDemo.m */,
+				857F0CEF1DAB2F0B00F24DD5 /* JLabelDemo.h */,
+				857F0CF01DAB2F0B00F24DD5 /* JLabelDemo.m */,
 			);
 			path = TestDemo;
 			sourceTree = "<group>";
@@ -441,6 +447,7 @@
 				859FAF181D3F48D3003EA83F /* Assets.xcassets in Resources */,
 				85AE612B1D41C11B00179DCD /* JCycleLoading.gif in Resources */,
 				858D9F671D4A54530033C120 /* JADCycleView.gif in Resources */,
+				857F0CF41DAB32A400F24DD5 /* Info.plist in Resources */,
 				854967411D3E12CC006339CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,6 +475,7 @@
 			files = (
 				85AE611D1D41B09900179DCD /* JADCycleViewDemo.m in Sources */,
 				8549673E1D3E12CC006339CB /* ViewController.m in Sources */,
+				857F0CF11DAB2F0B00F24DD5 /* JLabelDemo.m in Sources */,
 				85BC67BA1D46F7EB0013BCFB /* JCycleLoading.m in Sources */,
 				854532261D5D674700C89C87 /* UIView+HandyLayout.m in Sources */,
 				8549673B1D3E12CC006339CB /* AppDelegate.m in Sources */,

@@ -17,6 +17,7 @@
 #import "UIView+HandyLayout.h"
 #import "JButton/JButton.h"
 #import "JScrollView.h"
+#import "JLabelDemo.h"
 
 
 @interface ViewController(){
@@ -54,10 +55,19 @@
     //[self JButtonDemo];
     
     //初始化轮转图
-    [self initJScrollView];
+    //[self initJScrollView];
+    
+    //初始化Label
+    [self initJLabel];
+    
     
 }
 
+//初始化label
+-(void)initJLabel{
+    JLabelDemo *demo = [[JLabelDemo alloc]initWithFrame:self.view.frame];
+    [self.view addSubview:demo];
+}
 
 /**
  *  初始化轮转demo 两遍留白的空间
