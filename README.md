@@ -40,7 +40,7 @@ This is a library for you to waiting when loading data. You can wait when the co
 这是一个数据等待加载的动画。你可以通过指定等待时间让动画在有效期内执行。
 ### view(预览)
 ![image](https://github.com/jackytianhappy/JKit/blob/master/Jkit/JKitGifDemo/JADCycleView.gif)
-
+<br><br>
 
 ## `JButton`
 ### Introduction 
@@ -49,15 +49,21 @@ This is the button to meet the quick need of the development.
 这是一个在快速迭代中使用的button
 ### view(预览)
 ![image](https://github.com/jackytianhappy/JKit/blob/master/Jkit/JKitGifDemo/JButton.png)
-
+<br><br>
 
 ## `UIView+HandyLayout`
 ### Introduction 
 This is a quick library to help you create a UIPage quickly.It provides convenient API to control the UIControl's position and is provides the quicky define words to help you adjust the size of the screen.
 ### 介绍
 这是一个帮助快速搭建界面的库文件，提供很方便的api操作操作控件的位置属性，并且提供很方便的宏适配iOS屏幕尺寸。
+<br><br>
 
 
+## `JAsynImageView`
+### Introduction 
+This is a extention of UIImageView. It provides the function of load local image and it also helps load the remote image automacally. Meanwhile, it provides the API to help you clear the cache in the local.
+### 介绍
+这是一个UIImageview的扩展，能够自动识别图片源头，加载远程图片和本地图片。同时提供清除通过这个方法进行缓存的本地图片。
 
 
 
