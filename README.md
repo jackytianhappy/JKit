@@ -71,7 +71,8 @@ This is a extention of UIImageView. It provides the function of load local image
 ### Introduction
 This is a category of UILabel. It helps to make a quick and convenient api for the user to make the content in the UILabel to be in three modes. 1.show the content in oneline 2.show the content in morelines 3.show the content in the number of lines the user defined 
 ### 介绍
-这是一个UILabel类的扩展，提供了一个简单快捷的api 去帮助用户快速调整label内部的显示内容。 1.将内容显示在一行 2.将内容在多行显示 3.将内容显示在用户自定义的行数内
+这是一个UILabel类的扩展，提供了一个简单快捷的api去帮助用户快速调整label内部的显示内容。
+1.将内容显示在一行 2.将内容在多行显示 3.将内容显示在用户自定义的行数内
 
 
 
