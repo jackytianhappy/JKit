@@ -18,6 +18,7 @@
 #import "JButton/JButton.h"
 #import "JScrollView.h"
 #import "JLabelDemo.h"
+#import "DrawCornerDemoVC.h"
 
 
 @interface ViewController(){
@@ -58,10 +59,21 @@
     //[self initJScrollView];
     
     //初始化Label
-    [self initJLabel];
+    //[self initJLabel];
     
-    
+    //初始化圆角demo
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [btn setBackgroundColor:[UIColor blackColor]];
+    [btn addTarget:self action:@selector(initTheCornerRadiusDemo) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
+
+//初始化圆角Demo
+-(void)initTheCornerRadiusDemo{
+    DrawCornerDemoVC *demoVC = [[DrawCornerDemoVC alloc]initWithTitle:@"绘圆角"];
+    [self presentViewController:demoVC animated:YES completion:nil];
+}
+
 
 //初始化label
 -(void)initJLabel{

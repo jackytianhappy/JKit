@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		852907CD1DA8A41C00F0F888 /* JButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 852907CC1DA8A41C00F0F888 /* JButton.png */; };
+		8538F9131DC4BF45002CD13D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8538F9121DC4BF45002CD13D /* BaseViewController.m */; };
+		8538F9171DC4C019002CD13D /* DrawCornerDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8538F9161DC4C019002CD13D /* DrawCornerDemoVC.m */; };
+		8538F91B1DC4CB3F002CD13D /* UIView+CornerImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8538F91A1DC4CB3F002CD13D /* UIView+CornerImage.m */; };
+		8538F9211DC4D561002CD13D /* CornerImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8538F9201DC4D561002CD13D /* CornerImageManager.m */; };
 		854532191D5D5F4F00C89C87 /* LabelAdjustWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = 854532181D5D5F4F00C89C87 /* LabelAdjustWidth.m */; };
 		854532261D5D674700C89C87 /* UIView+HandyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 854532251D5D674700C89C87 /* UIView+HandyLayout.m */; };
 		854967381D3E12CC006339CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 854967371D3E12CC006339CB /* main.m */; };
@@ -56,6 +60,14 @@
 
 /* Begin PBXFileReference section */
 		852907CC1DA8A41C00F0F888 /* JButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JButton.png; sourceTree = "<group>"; };
+		8538F9111DC4BF45002CD13D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8538F9121DC4BF45002CD13D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		8538F9151DC4C019002CD13D /* DrawCornerDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCornerDemoVC.h; sourceTree = "<group>"; };
+		8538F9161DC4C019002CD13D /* DrawCornerDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCornerDemoVC.m; sourceTree = "<group>"; };
+		8538F9191DC4CB3F002CD13D /* UIView+CornerImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerImage.h"; sourceTree = "<group>"; };
+		8538F91A1DC4CB3F002CD13D /* UIView+CornerImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerImage.m"; sourceTree = "<group>"; };
+		8538F91F1DC4D561002CD13D /* CornerImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerImageManager.h; sourceTree = "<group>"; };
+		8538F9201DC4D561002CD13D /* CornerImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerImageManager.m; sourceTree = "<group>"; };
 		854532171D5D5F4F00C89C87 /* LabelAdjustWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelAdjustWidth.h; sourceTree = "<group>"; };
 		854532181D5D5F4F00C89C87 /* LabelAdjustWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelAdjustWidth.m; sourceTree = "<group>"; };
 		854532241D5D674700C89C87 /* UIView+HandyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HandyLayout.h"; sourceTree = "<group>"; };
@@ -133,6 +145,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8538F90E1DC4BE6F002CD13D /* EfficentCornerRadius */ = {
+			isa = PBXGroup;
+			children = (
+				8538F9101DC4BF01002CD13D /* EfficenetCornerRadius */,
+				8538F90F1DC4BEE0002CD13D /* CornerRadiusDemo */,
+			);
+			path = EfficentCornerRadius;
+			sourceTree = "<group>";
+		};
+		8538F90F1DC4BEE0002CD13D /* CornerRadiusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8538F9141DC4BFDF002CD13D /* DrawCornerDemo */,
+				8538F9111DC4BF45002CD13D /* BaseViewController.h */,
+				8538F9121DC4BF45002CD13D /* BaseViewController.m */,
+			);
+			path = CornerRadiusDemo;
+			sourceTree = "<group>";
+		};
+		8538F9101DC4BF01002CD13D /* EfficenetCornerRadius */ = {
+			isa = PBXGroup;
+			children = (
+				8538F9181DC4CA84002CD13D /* CornerRadiusCategory */,
+			);
+			path = EfficenetCornerRadius;
+			sourceTree = "<group>";
+		};
+		8538F9141DC4BFDF002CD13D /* DrawCornerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8538F9151DC4C019002CD13D /* DrawCornerDemoVC.h */,
+				8538F9161DC4C019002CD13D /* DrawCornerDemoVC.m */,
+			);
+			path = DrawCornerDemo;
+			sourceTree = "<group>";
+		};
+		8538F9181DC4CA84002CD13D /* CornerRadiusCategory */ = {
+			isa = PBXGroup;
+			children = (
+				8538F9191DC4CB3F002CD13D /* UIView+CornerImage.h */,
+				8538F91A1DC4CB3F002CD13D /* UIView+CornerImage.m */,
+				8538F91F1DC4D561002CD13D /* CornerImageManager.h */,
+				8538F9201DC4D561002CD13D /* CornerImageManager.m */,
+			);
+			path = CornerRadiusCategory;
+			sourceTree = "<group>";
+		};
 		854532161D5D5EFC00C89C87 /* LabelAdjustWidthDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +233,7 @@
 		854967351D3E12CC006339CB /* JKit */ = {
 			isa = PBXGroup;
 			children = (
+				8538F90E1DC4BE6F002CD13D /* EfficentCornerRadius */,
 				85DA29C81D82858B00036E76 /* ScrollViewSpecial */,
 				85E50A241D62C2C800F4F6A7 /* JButton */,
 				8545321A1D5D62B100C89C87 /* HandyViewFrameMaker */,
@@ -473,17 +533,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8538F9131DC4BF45002CD13D /* BaseViewController.m in Sources */,
+				8538F91B1DC4CB3F002CD13D /* UIView+CornerImage.m in Sources */,
 				85AE611D1D41B09900179DCD /* JADCycleViewDemo.m in Sources */,
 				8549673E1D3E12CC006339CB /* ViewController.m in Sources */,
 				857F0CF11DAB2F0B00F24DD5 /* JLabelDemo.m in Sources */,
 				85BC67BA1D46F7EB0013BCFB /* JCycleLoading.m in Sources */,
 				854532261D5D674700C89C87 /* UIView+HandyLayout.m in Sources */,
+				8538F9171DC4C019002CD13D /* DrawCornerDemoVC.m in Sources */,
 				8549673B1D3E12CC006339CB /* AppDelegate.m in Sources */,
 				854532191D5D5F4F00C89C87 /* LabelAdjustWidth.m in Sources */,
 				854967381D3E12CC006339CB /* main.m in Sources */,
 				858BD1D41D5B069D004F4EE2 /* JLabel.m in Sources */,
 				85AE613A1D45C53B00179DCD /* JUtils.m in Sources */,
 				8591F40C1D411C3000E5D6DF /* JTagListView.m in Sources */,
+				8538F9211DC4D561002CD13D /* CornerImageManager.m in Sources */,
 				85E50A271D62C2F500F4F6A7 /* JButton.m in Sources */,
 				858D9F6A1D4AE9FC0033C120 /* JCycleLoadingDemo.m in Sources */,
 				85AE61321D45C08C00179DCD /* JAsynImageViewDemo.m in Sources */,
