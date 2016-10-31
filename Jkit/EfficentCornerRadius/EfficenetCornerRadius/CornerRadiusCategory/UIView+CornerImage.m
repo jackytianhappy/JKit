@@ -66,7 +66,6 @@
             [hashStr appendString:[NSString stringWithFormat:@"%@", @(colors[index])]];
         }
     }
-    
     [hashStr appendString:[NSString stringWithFormat:@"%@", @(radius)]];
     [hashStr appendString:[NSString stringWithFormat:@"%@", @(border)]];
     
