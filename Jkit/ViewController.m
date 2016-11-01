@@ -18,7 +18,7 @@
 #import "JButton/JButton.h"
 #import "JScrollView.h"
 #import "JLabelDemo.h"
-#import "DrawCornerDemoVC.h"
+#import "UIImage+ExtraAction.h"
 
 
 @interface ViewController(){
@@ -61,17 +61,21 @@
     //初始化Label
     //[self initJLabel];
     
-    //初始化圆角demo
-    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
-    [btn setBackgroundColor:[UIColor blackColor]];
-    [btn addTarget:self action:@selector(initTheCornerRadiusDemo) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
-}
+//    //初始化圆角demo
+//    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+//    [btn setBackgroundColor:[UIColor blackColor]];
+//    [btn addTarget:self action:@selector(initTheCornerRadiusDemo) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:btn];
+    
+    
+    //进行图片的裁剪
+    UIImageView *imageview = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 400, 200)];
+    imageview.contentMode = UIViewContentModeScaleAspectFill;
+    imageview.backgroundColor = [UIColor blackColor];
+    imageview.image = [[UIImage imageNamed:@"400200"]cutImageWithRectSize:CGSizeMake(imageview.frame.size.width, imageview.frame.size.height) necessryPoint:CGPointMake(40, 20)];
+    [self.view addSubview:imageview];
 
-//初始化圆角Demo
--(void)initTheCornerRadiusDemo{
-    DrawCornerDemoVC *demoVC = [[DrawCornerDemoVC alloc]initWithTitle:@"绘圆角"];
-    [self presentViewController:demoVC animated:YES completion:nil];
+    
 }
 
 
